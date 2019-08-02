@@ -67,19 +67,19 @@
 		================================================== -->
 
 		<header class="cd-header">
-			<div class="header-wrapper">
-				<div class="logo-wrap">
-					<a href="index.html" class="cursor-link animsition-link"><img src="img/logo.png" alt=""></a>
-				</div>
-				<div class="nav-but-wrap">
-					<div class="menu-icon cursor-link">
-						<span class="menu-icon__line menu-icon__line-left"></span>
-						<span class="menu-icon__line"></span>
-						<span class="menu-icon__line menu-icon__line-right"></span>
-					</div>					
-				</div>					
-			</div>				
-		</header>
+                <div class="header-wrapper">
+                    <div class="logo-wrap">
+                        <img src="photos/logo .png" alt=""><span>Rann Neeti</span>
+                    </div>
+                    <div class="nav-but-wrap">
+                        <div class="menu-icon cursor-link">
+                            <span class="menu-icon__line menu-icon__line-left"></span>
+                            <span class="menu-icon__line"></span>
+                            <span class="menu-icon__line menu-icon__line-right"></span>
+                        </div>					
+                    </div>					
+                </div>				
+            </header>
 
 		<div class="nav">
 				<div class="nav__content">
@@ -88,6 +88,7 @@
 						</li>
 						<li class="nav__list-item"><a href="team.html" class="cursor-link animsition-link">TEAM</a></li>
 						<li class="nav__list-item"><a href="register.html" class="cursor-link animsition-link">REGISTER</a></li>
+						<li class="nav__list-item"><a href="gallery.html" class="cursor-link animsition-link">GALLERY</a></li>
 					</ul>
 				</div>
 			</div>	
@@ -108,23 +109,33 @@
 	
 		<div class="section padding-bottom-big over-hide background-dark-2">
 			<div class="container">
-				<div class="row justify-content-center">
-                <form action="https://formspree.io/rannneeti19@gmail.com" method="POST" /> 
-					<div class="col-md-4 ajax-form">
-						<input class="cursor-link" name="name" type="text" placeholder="Your Name: *" autocomplete="off"/>
-					</div>
-					<div class="col-md-4 mt-4 mt-md-0 ajax-form">
-						<input class="cursor-link" name="email" type="text"  placeholder="E-Mail: *" autocomplete="off"/>
-					</div>
+				<div class="justify-content-center">
+                <form action="https://formspree.io/rannneeti19@gmail.com" method="POST" />
+
+                    <div class="input-group mb-3 cursor-link" style="top: 5px;">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text"> Name</span>
+                        </div>
+                        <input type="text" name="name" class="form-control" required>
+                    </div>
+
+                    <div class="input-group mb-3 cursor-link">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text">email</span>
+                            </div>
+                            <input type="email" name="email" class="form-control" required>
+                        </div>
+
+                    <div class="section clearfix"></div>
+                    
+                    <div class="form-group cursor-link">
+                            <textarea class="form-control" name="message" rows="5" id="message" placeholder="type here" required></textarea>
+                          </div> 
+                          
 					<div class="section clearfix"></div>
-					<div class="col-md-8 mt-4 ajax-form">
-						<textarea class="cursor-link" name="message" placeholder="Tell Us the problem"></textarea>
-					</div>
-					<div class="section clearfix"></div>
-					<div class="section clearfix"></div>
-					<div class="col-md-8 mt-4 ajax-form text-center">
-						<button class="send_message cursor-link" id="send" data-lang="en"><span>submit</span></button>
-					</div>
+                    <div class="section clearfix"></div>
+                    <br>
+					<button class="btn btn-primary cursor-link" id="send" data-lang="en"><span>submit</span></button>
                 </form>
 				</div>	
 			</div>			
@@ -156,7 +167,7 @@
 					<div class="col-md-12 text-center">
 						<a href="mailto:rannneeti19@gmail.com" class="cursor-link">
 							<div class="project-link-wrap on-contact">
-								<p>rannneeti19@gmail.com</p>
+								<p style="font-size: 300%;">rannneeti19@gmail.com</p>
 							</div>
 					</div>
 				</div>	
