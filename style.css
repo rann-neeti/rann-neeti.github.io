@@ -55,6 +55,31 @@ body {
   position: relative;
   z-index: auto; }
 
+h1:after {
+	content: '';
+  position: absolute;
+  left: 25%;
+  display: inline-block;
+  height: 1em;
+  left: 35%;
+  width: 30%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+  transform: scale(0,1);
+
+}
+
+h1:hover:after {
+  color:  #d129bb;
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
 h1,
 h2,
 h3,
@@ -65,6 +90,16 @@ h6 {
   color: #111343;
   line-height: 1.25;
   font-weight: 600; }
+
+h1 {
+  color:  #5a2953;
+}
+
+h1:hover {
+  color: #6e3364;
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
 
 a,
 a:active,
