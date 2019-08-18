@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta name="keywords" content="rann,neeti,gmaes,sports,2019,2k19,gold,grab,the,iit,mandi,fest,latest,trending">
+    <meta name="author" content="Dipanshu Verma and Naman Tayal">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Confer - Conference Event HTML Template</title>
+    <title>Rann Neeti 2019</title>
 
     <!-- Favicon -->
     <link rel="icon" href="./img/bg-img/logo .png">
@@ -108,7 +109,7 @@
                                 <h2 data-animation="fadeInUp" data-delay="300ms">RANN NEETI</h2>
                                 <!-- Event Meta -->
                                 <div class="event-meta" data-animation="fadeInUp" data-delay="500ms">
-                                    <a class="event-date" href="#"><i class="zmdi zmdi-account"></i> October 1, 2019</a>
+                                    <a class="event-date" href="#"><i class="zmdi zmdi-account"></i> October 11-13, 2019</a>
                                     <a class="event-author" href="#"><i class="zmdi zmdi-alarm-check"></i> IIT MANDI</a>
                                 </div>
                                 <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
@@ -740,6 +741,36 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Footer Area End -->
 
     <!-- **** All JS Files ***** -->
+    <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Oct 11, 2019 00:00:01").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+                
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+                
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              // Output the result in an element with id="demo"
+              document.getElementById("clock").innerHTML = "<div>"+days+ "<span>Days</span></div> <div>"+hours +"<span>Hours</span></div> <div>"+minutes+ "<span>Minutes</span></div> <div>"+seconds+ "<span>Seconds</span></div>";
+                
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("clock").innerHTML = "Game has Started";
+              }
+            }, 1000);
+    </script>
+
     <!-- jQuery 2.2.4 -->
     <script src="js/jquery.min.js"></script>
     <!-- Popper -->
