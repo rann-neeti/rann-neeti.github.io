@@ -6,40 +6,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta name="keywords" content="rann,neeti,gmaes,sports,2019,2k19,gold,grab,the,iit,mandi,fest,latest,trending">
+    <meta name="author" content="Dipanshu Verma and Naman Tayal">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Confer - Conference Event HTML Template</title>
+    <title>Rann Neeti 2019</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="./img/core-img/favicon.png">
+    <link rel="icon" href="./img/bg-img/logo .png">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- checkbox style -->
-  <style>
-    input.mybox{
-      margin-bottom: 5px;
-      color: #808080;
-    }
-
-    label input.mybox:checked{
-      color: #000000;
-    }
-
-    label{
-      color: #808080;
-      margin-left: 2px;
-    }
-
-    label:hover{
-      color: #000000;
-      cursor: pointer;
-    }
-  </style>
 
 </head>
 
@@ -58,7 +37,8 @@
                 <nav class="classy-navbar justify-content-between" id="conferNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+                    <a class="nav-brand" href="./index.html" style="max-width: 10%"><img src="./img/core-img/logo.png"></a>
+                    <a class="nav-brand" href="./index.html" style="max-width: 10%"><img src="./img/bg-img/iitmandi_logo.png"></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -79,29 +59,18 @@
                                     <ul class="dropdown">
                                         <li><a href="index.html">- Home</a></li>
                                         <li><a href="about.html">- About Us</a></li>
-                                        <li><a href="speakers.html">- Speakears</a></li>
-                                        <li><a href="schedule.html">- Schedule</a></li>
-                                        <li><a href="tickets.html">- Tickets</a></li>
-                                        <li><a href="blog.html">- Blog</a></li>
-                                        <li><a href="single-blog.html">- Single Blog</a></li>
+                                        <li><a href="speakers.html">- Team</a></li>
+                                        <li><a href="schedule.html">- Schedule/Rules</a></li>
+                                        <li><a href="register.php">- Register</a></li>
                                         <li><a href="contact.html">- Contact</a></li>
-                                        <li><a href="#">- Dropdown</a>
-                                            <ul class="dropdown">
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                            </ul>
-                                        </li>
                                     </ul>
                                 </li>
-                                <li><a href="speakers.html">Speakears</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="speakers.html">Team</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
 
                             <!-- Get Tickets Button -->
-                            <a href="#" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
+                            <a href="register.php" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Register <i class="zmdi zmdi-long-arrow-right"></i></a>
                         </div>
                         <!-- Nav End -->
                     </div>
@@ -252,7 +221,7 @@
 
     <!-- Map Area -->
     <div class="map-area">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8521.851236327686!2d-74.6724533513314!3d40.961125464236446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c371b215154515%3A0xb2dc3766c77b480b!2sHopatcong%2C+NJ%2C+USA!5e0!3m2!1sen!2sbd!4v1552471083596" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgf2xVGDjBDkROfPJ3pBKF8M&key=AIzaSyDt0vmrDjhqkRsggokYMg9UbtDt4-Cnljw" allowfullscreen></iframe>
     </div>
 
     <!-- Contact Info Area -->
@@ -268,7 +237,7 @@
                                 <div class="contact--info-icon">
                                     <img src="img/core-img/icon-5.png" alt="">
                                 </div>
-                                <h5>184 Main Collins Street</h5>
+                                <h5>IIT Mandi, HIMACHAL PRADESH</h5>
                             </div>
                         </div>
 
@@ -279,7 +248,7 @@
                                 <div class="contact--info-icon">
                                     <img src="img/core-img/icon-6.png" alt="">
                                 </div>
-                                <h5>(226) 446 9371</h5>
+                                <h5>99172 48334</h5>
                             </div>
                         </div>
 
@@ -290,7 +259,7 @@
                                 <div class="contact--info-icon">
                                     <img src="img/core-img/icon-7.png" alt="">
                                 </div>
-                                <h5>confer@gmail.com</h5>
+                                <h5>rannneeti@gmail.com</h5>
                             </div>
                         </div>
 
@@ -301,9 +270,10 @@
                                 <div class="contact--info-icon">
                                     <img src="img/core-img/icon-8.png" alt="">
                                 </div>
-                                <h5>www.confer.com</h5>
+                                <h5>rann-neeti.co</h5>
                             </div>
                         </div>
+
 
                     </div>
                 </div>
@@ -314,89 +284,74 @@
     <!-- Footer Area Start -->
     <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
         <!-- Main Footer Area -->
-        <div class="main-footer-area">
-            <div class="container">
+        <div class="main-footer-area" >
+            <div class="container" >
                 <div class="row">
                     <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60">
+                    <div class="col-sm-4 ">
+                            <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+                                <!-- Widget Title -->
+                                <h5 class="widget-title">Contact</h5>
+    
+                                <!-- Contact Area -->
+                                <div class="footer-contact-info">
+                                    <p><i class="zmdi zmdi-map"></i> IIT MANDI, HIMACHAL PRADESH</p>
+                                    <p><i class="zmdi zmdi-phone"></i> Ram Agarwal -  99172 48334</p>
+                                    <p><i class="zmdi zmdi-email"></i> rannneeti@gmail.com</p>  
+                                </div>
+                            </div>
+                        </div>
+
+
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-sm-4 ">
+                        <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
                             <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
-                            <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain.</p>
+                            <a href="index.html" class="footer-logo" style="text-align: center"><img src="img/core-img/logo.png" style="width: 50%"></a>
+                            <p align='center'>Rann Neeti 2019 <br> All rights reserved</p>
 
                             <!-- Social Info -->
-                            <div class="social-info">
-                                <a href="#"><i class="zmdi zmdi-facebook"></i></a>
-                                <a href="#"><i class="zmdi zmdi-instagram"></i></a>
-                                <a href="#"><i class="zmdi zmdi-twitter"></i></a>
-                                <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                            <div class="social-info" style="text-align: center">
+                                <a href="https://www.facebook.com/Rannneetivqv/" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+                                <a href="https://www.instagram.com/rann_neeti.iitmandi/?hl=en" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60">
-                            <!-- Widget Title -->
-                            <h5 class="widget-title">Contact</h5>
-
-                            <!-- Contact Area -->
-                            <div class="footer-contact-info">
-                                <p><i class="zmdi zmdi-map"></i> 184 Main Collins Street</p>
-                                <p><i class="zmdi zmdi-phone"></i> (226) 446 9371</p>
-                                <p><i class="zmdi zmdi-email"></i> confer@gmail.com</p>
-                                <p><i class="zmdi zmdi-globe"></i> www.confer.com</p>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60">
-                            <!-- Widget Title -->
-                            <h5 class="widget-title">Workshops</h5>
-
-                            <!-- Footer Nav -->
-                            <ul class="footer-nav">
-                                <li><a href="#">OSHA Compliance</a></li>
-                                <li><a href="#">Microsoft Excel Basics</a></li>
-                                <li><a href="#">Forum Speaker Series</a></li>
-                                <li><a href="#">Tedx Moscow Conference</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60">
-                            <!-- Widget Title -->
-                            <h5 class="widget-title">Gallery</h5>
-
-                            <!-- Footer Gallery -->
-                            <div class="footer-gallery">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <a href="img/bg-img/21.jpg" class="single-gallery-item"><img src="img/bg-img/21.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-4">
-                                        <a href="img/bg-img/22.jpg" class="single-gallery-item"><img src="img/bg-img/22.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-4">
-                                        <a href="img/bg-img/23.jpg" class="single-gallery-item"><img src="img/bg-img/23.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-4">
-                                        <a href="img/bg-img/24.jpg" class="single-gallery-item"><img src="img/bg-img/24.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-4">
-                                        <a href="img/bg-img/25.jpg" class="single-gallery-item"><img src="img/bg-img/25.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-4">
-                                        <a href="img/bg-img/26.jpg" class="single-gallery-item"><img src="img/bg-img/26.jpg" alt=""></a>
+                    <div class="col-sm-4 ">
+                            <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+                                <!-- Widget Title -->
+                                <h5 class="widget-title">Gallery</h5>
+    
+                                <!-- Footer Gallery -->
+                                <div class="footer-gallery">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="img/bg-img/baddy2.jpg" class="single-gallery-item"><img src="img/bg-img/baddy2.jpg" alt=""></a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="img/bg-img/baddy-min.jpg" class="single-gallery-item"><img src="img/bg-img/baddy-min.jpg" alt=""></a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="img/bg-img/volly-min.jpg" class="single-gallery-item"><img src="img/bg-img/volly-min.jpg" alt=""></a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="img/bg-img/cricket-min.jpg" class="single-gallery-item"><img src="img/bg-img/cricket-min.jpg" alt=""></a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="img/bg-img/tt-min.jpg" class="single-gallery-item"><img src="img/bg-img/tt-min.jpg" alt=""></a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="img/bg-img/hockey-min.jpg" class="single-gallery-item"><img src="img/bg-img/hockey-min.jpg" alt=""></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
