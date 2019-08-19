@@ -38,7 +38,7 @@
 
                     <!-- Logo -->
                     <a class="nav-brand" href="./index.html" style="max-width: 10%"><img src="./img/core-img/logo.png"></a>
-                    <a class="nav-brand" href="./index.html" style="max-width: 10%"><img src="./img/bg-img/iitmandi_logo.png"></a>
+                    <a class="nav-brand" href="http://iitmandi.ac.in/" style="max-width: 10%"><img src="./img/bg-img/iitmandi_logo.png"></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -86,16 +86,17 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2 class="page-title">Contact</h2>
+                        <h2 class="page-title">Register</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                                <li class="breadcrumb-item active" aria-current="page">Register</li>
                             </ol>
                         </nav>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <!-- Breadcrumb Area End -->
@@ -120,7 +121,7 @@
                             <p>Register only once for one college. You will have to pay required fees after Registration</p>
                         </div>
                         <div class="contact_form">
-                            <form action="register.php" method="post">
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                                 <div class="contact_input_area">
                                     <div class="row">
                                         <!-- Form Group -->
@@ -259,7 +260,7 @@
                                 <div class="contact--info-icon">
                                     <img src="img/core-img/icon-7.png" alt="">
                                 </div>
-                                <h5>rannneeti@gmail.com</h5>
+                                <h5>public_relations@rann-neeti.co</h5>
                             </div>
                         </div>
 
@@ -297,7 +298,7 @@
                                 <div class="footer-contact-info">
                                     <p><i class="zmdi zmdi-map"></i> IIT MANDI, HIMACHAL PRADESH</p>
                                     <p><i class="zmdi zmdi-phone"></i> Ram Agarwal -  99172 48334</p>
-                                    <p><i class="zmdi zmdi-email"></i> rannneeti@gmail.com</p>  
+                                    <p><i class="zmdi zmdi-email"></i> public_relations@rann-neeti.co</p>  
                                 </div>
                             </div>
                         </div>

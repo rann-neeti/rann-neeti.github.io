@@ -12,7 +12,7 @@ $people="";
 
 //connect to database
 
-$db = mysqli_connect('localhost','root','','rannneeti') or die("could not connect to database");
+$db = mysqli_connect('localhost','rannwebmaster','controller','ranniitm') or die("could not connect to database");
 
 //Register User
 if(isset($_POST['submit']))
