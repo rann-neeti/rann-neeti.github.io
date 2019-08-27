@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="rann,neeti,gmaes,sports,2019,2k19,gold,grab,the,iit,mandi,fest,latest,trending">
+    <meta name="keywords" content="rann,neeti,games,sports,2019,2k19,gold,grab,the,iit,mandi,fest,latest,trending">
     <meta name="author" content="Dipanshu Verma and Naman Tayal">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +19,29 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-
+    
+    <!-- checkbox style -->
+    <style>
+        input.mybox{
+          margin-bottom: 5px;
+          color: #808080;
+        }
+    
+        label input.mybox:checked{
+          color: #000000;
+        }
+    
+        label{
+          color: #808080;
+          margin-left: 2px;
+        }
+    
+        label:hover{
+          color: #000000;
+          cursor: pointer;
+        }
+    </style>
+    
 </head>
 
 <body>
@@ -108,7 +130,7 @@
                 <!-- Contact Us Thumb -->
                 <div class="col-12 col-lg-6">
                     <div class="contact-us-thumb mb-100">
-                        <img src="img/bg-img/44.jpg" alt="">
+                        <img src="img/bg-img/register.jpg" alt="">
                     </div>
                 </div>
 
@@ -127,7 +149,7 @@
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Leader Name" required>
+                                                <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Representative Name" required>
                                             </div>
                                         </div>
                                         <!-- Form Group -->
@@ -298,6 +320,7 @@
                                 <div class="footer-contact-info">
                                     <p><i class="zmdi zmdi-map"></i> IIT MANDI, HIMACHAL PRADESH</p>
                                     <p><i class="zmdi zmdi-phone"></i> Ram Agarwal -  99172 48334</p>
+                                    <p><i class="zmdi zmdi-phone"></i> Raman Soni - 94614 06697</p>
                                     <p><i class="zmdi zmdi-email"></i> public_relations@rann-neeti.co</p>  
                                 </div>
                             </div>
