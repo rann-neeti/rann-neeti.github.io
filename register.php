@@ -130,7 +130,7 @@
                 <!-- Contact Us Thumb -->
                 <div class="col-12 col-lg-6">
                     <div class="contact-us-thumb mb-100">
-                        <img src="img/bg-img/register.jpg" alt="">
+                        <img src="img/bg-img/register.png" alt="">
                     </div>
                 </div>
 
