@@ -82,7 +82,7 @@
                                         <li><a href="index.html">- Home</a></li>
                                         <li><a href="about.html">- About Us</a></li>
                                         <li><a href="speakers.html">- Team</a></li>
-                                        <li><a href="schedule.html">- Schedule/Rules</a></li>
+                                        <!-- <li><a href="schedule.html">- Schedule/Rules</a></li> -->
                                         <li><a href="register.php">- Register</a></li>
                                         <li><a href="contact.html">- Contact</a></li>
                                     </ul>
@@ -139,111 +139,22 @@
                     <div class="contact_from_area mb-100 clearfix">
                         <!-- Contact Heading -->
                         <div class="contact-heading">
-                            <h4>Book Your Accomodation</h4>
-                            <p>Register only once for one college. You will have to pay required fees after Registration</p>
+                            <h4>Bookings are over</h4>
+                            <p>you may still pay for the registrations prior to coming</p>
                         </div>
-                        <div class="contact_form">
-                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-                                <div class="contact_input_area">
-                                    <div class="row">
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Representative Name" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="college" id="name-2" placeholder="College Name" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="number" class="form-control mb-30" name="contact" id="subject" placeholder="Contact Number">
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="number" class="form-control mb-30" name="people" id="subject" placeholder="Number of Participants">
-                                            </div>
-                                        </div>
-
-                                        <!-- checkbox -->
-                                        <div class="col-12">
-                                            <h4>Events</h4>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Table-Tennis(Boys)" value="Table-Tennis (Boys)">Table-Tennis (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Table-Tennis(Girls)" value="Table-Tennis (Girls)">Table-Tennis (Girls)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Badminton(Boys)" value="Badminton (Boys)">Badminton (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Badminton(Girls)" value="Badminton (Girls)">Badminton (Girls)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Basketball(Boys)" value="Basketball (Boys)">Basketball (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Basketball(Girls)" value="Basketball (Girls)">Basketball (Girls)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Football(Boys)" value="Football (Boys)">Football (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Cricket(Boys)" value="Cricket (Boys)">Cricket (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Volleyball(Boys)" value="Volleyball (Boys)">Volleyball (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Volleyball(Girls)" value="Volleyball (Girls)">Volleyball (Girls)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Hockey(Boys)" value="Hockey (Boys)">Hockey (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Athletics(Boys)" value="Athletics (Boys)">Athletics (Boys)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Athletics(Girls)" value="Athletics (Girls)">Athletics (Girls)</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Lawn-Tennis" value="Lawn-Tennis">Lawn-Tennis</label>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                          <label><input class="mybox" type="checkbox" name="Chess" value="Chess">Chess</label>
-                                        </div>
-                                        <br>
-                                        <!-- Button -->
-                                        <div class="col-12">
-                                            <button type="submit" class="btn confer-btn" name="submit">Book Now<i class="zmdi zmdi-long-arrow-right"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact Us Area End -->
-
+    <div style="padding-bottom: 10%;padding-top: 5%;background-color: rgb(241, 239, 251);">
+    <h1 style="text-align: center;">online payment now available!</h1>
+    <h3 style="text-align: center;"><ul><li><a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=300525" style="color: blue;"><button class="btn confer-btn">SBI Portal<i class="zmdi zmdi-long-arrow-right"></i></button></a></li></ul></h3>
+    </div>
     <!-- Map Area -->
-    <div class="map-area">
+    <div class="map-area" style="padding: 1%;">
         <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgf2xVGDjBDkROfPJ3pBKF8M&key=AIzaSyDt0vmrDjhqkRsggokYMg9UbtDt4-Cnljw" allowfullscreen></iframe>
     </div>
 
